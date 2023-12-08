@@ -1,5 +1,11 @@
 // const util = require('./util')
-import util from './util'
+import util from './util';
+import './css/main.scss';   // we tell webpack we want to process this css file
+// import './images/carved-rock-logo.png';
+// @ts-ignore
+// import msg from './message.txt';
+
+// console.log(msg)
 
 const cart = [];
 
